@@ -5,11 +5,11 @@
 class MicrocksCli < Formula
   desc ""
   homepage "https://github.com/microcks/microcks-cli"
-  version "0.5.7"
+  version "0.5.8"
 
   on_macos do
-    url "https://github.com/microcks/microcks-cli/releases/download/0.5.7/microcks-cli_0.5.7_darwin_all.tar.gz"
-    sha256 "6665298691aeaff0fad023c49064e47c042ad09ab2d4ffe90b2ab751cc6a665a"
+    url "https://github.com/microcks/microcks-cli/releases/download/0.5.8/microcks-cli_0.5.8_darwin_all.tar.gz"
+    sha256 "10ec55b1c7cad8e53aecf013851c771ddbeea418097b90d9527cd7c4b22e3a00"
 
     def install
       bin.install "microcks-cli"
@@ -19,8 +19,8 @@ class MicrocksCli < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/microcks/microcks-cli/releases/download/0.5.7/microcks-cli_0.5.7_linux_amd64.tar.gz"
-        sha256 "5b2ba64b97845b0606218ce9aab7bd6147272c5ddbab1a4608dec0d316828b12"
+        url "https://github.com/microcks/microcks-cli/releases/download/0.5.8/microcks-cli_0.5.8_linux_amd64.tar.gz"
+        sha256 "f082bf11d65a3e4f00f0bf7eb9f0b1c42abd4a44f07569796fd1ba443b83e586"
 
         def install
           bin.install "microcks-cli"
@@ -29,8 +29,8 @@ class MicrocksCli < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/microcks/microcks-cli/releases/download/0.5.7/microcks-cli_0.5.7_linux_arm64.tar.gz"
-        sha256 "a0a24b9827283e5ad40c4c9bd50c8319d747cdae8071c8f17eb2bb3f96a774da"
+        url "https://github.com/microcks/microcks-cli/releases/download/0.5.8/microcks-cli_0.5.8_linux_arm64.tar.gz"
+        sha256 "2c8fd433f88aec0908b628f0476132a502eaf6b57e764317f5ee2b2f472ac755"
 
         def install
           bin.install "microcks-cli"
