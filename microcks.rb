@@ -12,7 +12,7 @@ class Microcks < Formula
     sha256 "987e5eac7572f0e3ad11ff23f367d269581dbc9653afa5df066ce26a47b816b9"
 
     def install
-      bin.install "microcks-cli"
+      bin.install "microcks"
     end
   end
 
